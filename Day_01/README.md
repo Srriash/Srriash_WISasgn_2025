@@ -1,1 +1,1 @@
-I used Chatgpt to understand how to add a video file, so I typed, " How to add a video file on my website created using GitHub's repository markdown?". Additionally, I played around my copilot trying to create logos of social media handles and such whih I didnot include in my website.
+I used Chatgpt to understand how to add a video file, so I typed, " How to add a video file on my website created using GitHub's repository markdown?". Additionally, I played around copilot trying to create logos of social media handles and such whih I didnot include in my website.
