@@ -11,7 +11,7 @@
   
    create a gui for all these programs
 
-2. Calculation of growth rate and doubling time of any bacteria and suggest average time and rate of the given bacteria
+**2. Calculation of growth rate and doubling time of any bacteria and suggest average time and rate of the given bacteria**
 
    a.   **AI command (used perplexity pro)**
 
