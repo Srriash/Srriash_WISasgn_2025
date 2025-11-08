@@ -1,5 +1,6 @@
 import math
 
+# Reference data for major bacteria (doubling_time range in minutes, growth_rate range per hour)
 reference_db = {
     "Escherichia coli": {"doubling_time_min": [18, 20], "growth_rate_hr": [0.6, 0.8]},
     "Bacillus subtilis": {"doubling_time_min": [20, 24], "growth_rate_hr": [0.6, 0.72]},
@@ -52,6 +53,9 @@ try:
                 print(f"Growth rate is NOT typical for {bact_name} ({typical_k[0]}-{typical_k[1]} per hour).")
         else:
             print("Sorry, your bacterium is not on my list.")
-            print("For more information, check: https://pmc.ncbi.nlm.nih.gov/articles/PMC372817/ or https://en.wikipedia.org/wiki/List_of_bacterial_genera")
+            print("You can look up its average doubling time and growth rate via Perplexity AI:")
+            print(f"https://www.perplexity.ai/search?q=average+doubling+time+and+growth+rate+{bact_name.replace(' ', '+')}")
 except Exception as e:
     print("An error occurred during the calculation:", str(e))
+
+print("\nPurpose: This program calculates the growth rate and doubling time of a bacterial culture from optical density readings, compares these values to known literature data for the selected species, and provides a lookup link for other bacteria.")
