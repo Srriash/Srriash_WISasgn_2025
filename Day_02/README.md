@@ -1,18 +1,15 @@
 1. **Calculation of area using three different input mechanisms**
    
   **AI command (used perplexity pro)**
-
-. Write me a python program to code for area of circle by asking input from the user. 
+  Write me a python program to code for area of circle by asking input from the user. Write me three different codes, 
   
-  write me three different codes, 
-
   In one ask the user for the perimeter of the circle and then calculate the area, 
   
   Next ask the user for the volume of a sphere and from that calculate the area of a circle (by using the radius of the sphere)
   
   Third is by asking the user for the area of a cone and calculate the area of a circle(by using the radius of the base of the cone so essentially calculating the area of the base of the cone).
   
-. create a gui for all these programs
+   create a gui for all these programs
 
 2. Calculation of growth rate and doubling time of any bacteria and suggest average time and rate of the given bacteria
 
