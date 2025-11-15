@@ -1,4 +1,5 @@
 Bacteria Growth Rate and doubling time Calculator
+
 Installation: NumPy
 
     pip install numpy
