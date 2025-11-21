@@ -43,7 +43,7 @@ See [requirements.txt]
     
     5. what are the requirements for this program
     
-    explain what the program does and how its done
+    6. explain what the program does and how its done
 
 
 
