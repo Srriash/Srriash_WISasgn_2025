@@ -33,15 +33,15 @@ See [requirements.txt]
 
 ### AI interactions (perplexity pro)
 
-    create a python program for acessing the recent articles for its metadata like title author date etc. from pubmed for an input search term like crispr, ecoli etc and create a logic file and a main file importing functions from the logic file.
+    1. create a python program for acessing the recent articles for its metadata like title author date etc. from pubmed for an input search term like crispr, ecoli etc and create a logic file and a main file importing functions from the logic file.
+
+    2. include 'and' and 'or' operators. also, save the csv file locally in the computer
     
-    include 'and' and 'or' operators. also, save the csv file locally in the computer
+    3. download this locally into the computer not the folder in the repository
     
-    download this locally into the computer not the folder in the repository
+    4. ok but if I use the same entry twice im not able to doawnload it becuase its the same file
     
-    ok but if I use the same entry twice im not able to doawnload it becuase its the same file
-    
-    what are the requirements for this program
+    5. what are the requirements for this program
     
     explain what the program does and how its done
 
