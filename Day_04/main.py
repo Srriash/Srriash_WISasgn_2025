@@ -1,4 +1,3 @@
-# main.py
 import os
 from datetime import datetime
 from pubmed_api import fetch_pubmed_ids, fetch_article_metadata, save_metadata_to_csv
@@ -20,7 +19,7 @@ def main():
     print(f"Fetching metadata for {len(ids)} articles...")
     articles = fetch_article_metadata(ids)
 
-    # Prompt for local folder
+    # Ask for user-selected destination as before
     print("\nWhere would you like to save the CSV file?")
     print("For example: '/home/yourname/Documents' or 'C:\\Users\\yourname\\Documents'")
     dest_folder = input("Enter full folder path (leave empty for ~/Downloads): ").strip()
@@ -32,9 +31,19 @@ def main():
 
     safe_q = "".join(c if c.isalnum() else "_" for c in query)[:50]
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    fname = os.path.join(dest_folder, f"pubmed_{safe_q}_{timestamp}.csv")
-    save_metadata_to_csv(articles, fname)
-    print(f"Saved metadata for {len(articles)} articles to: {fname}")
+    filename = f"pubmed_{safe_q}_{timestamp}.csv"
+
+    # Save to user-selected location
+    user_path = os.path.join(dest_folder, filename)
+    save_metadata_to_csv(articles, user_path)
+    print(f"Saved metadata for {len(articles)} articles to: {user_path}")
+
+    # --- NEW: save also to repo data/ folder (relative to where main.py is run) ---
+    repo_data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+    os.makedirs(repo_data_dir, exist_ok=True)
+    repo_path = os.path.join(repo_data_dir, filename)
+    save_metadata_to_csv(articles, repo_path)
+    print(f"Also saved metadata to repository folder: {repo_path}")
 
 if __name__ == "__main__":
     main()
