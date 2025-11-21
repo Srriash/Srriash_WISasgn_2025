@@ -1,4 +1,4 @@
-##PubMed Article Downloader
+## PubMed Article Downloader
 
 This Python program allows you to search PubMed for recent articles using Boolean ('AND'& 'OR') queries (e.g., “CRISPR AND E. coli”, “gene editing OR CRISPR”). It downloads key metadata (title, authors, publication date, source journal, and PMID) for the most recent articles matching your query, and saves the results as a CSV file to any location on your local computer.
 
