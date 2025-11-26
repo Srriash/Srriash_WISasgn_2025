@@ -1,6 +1,6 @@
 # Rock, Paper, and Scissors - A simple game with a deja vu feeling
 ## About
-It is a simple game where the computer at random chooses the three options and duel's against the user input. It is written with the while loop incorporating if and elif statements.
+It is a simple game where the computer at random chooses one of the three options and duel's against the user input. It is written with the while loop incorporating if and elif statements.
 
 ## Dependencies
 None
