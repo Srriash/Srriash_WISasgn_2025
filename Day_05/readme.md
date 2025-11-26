@@ -7,7 +7,7 @@ rps_main.py - main file (user interface)
 rps_logic.py - Business logic
 rps_test.py - Test program for the logic functions
 
-dditionally, a standalone version with both logic and main code combined is available for clarity and quick reference (see the 'rough' folder in 'day_05').
+Additionally, a standalone version with both logic and main code combined is available for clarity and quick reference (see the 'rough' folder in 'day_05').
 
 ## Dependencies
 No 3rd party installation required
