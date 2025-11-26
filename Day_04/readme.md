@@ -1,6 +1,6 @@
 ## PubMed Article Downloader
 
-This Python program allows you to search PubMed for recent articles using Boolean ('AND'& 'OR') queries (e.g., “CRISPR AND E. coli”, “gene editing OR CRISPR”). It downloads key metadata (title, authors, publication date, source journal, and PMID) for the most recent articles matching your query, and saves the results as a CSV file to any location on your local computer.
+This program allows you to search PubMed (free online search tool for biomedical and lifesceinces literature)for recent articles using Boolean ('AND'& 'OR') queries (e.g., “CRISPR AND E. coli”, “gene editing OR CRISPR”). It downloads key metadata (title, authors, publication date, source journal, and PMID) for the most recent articles matching your query, and saves the results as a CSV file to any location on your local computer.
 
 *Features*
 - Searches PubMed via the NCBI E-utilities API ([NCBI PubMed](https://pubmed.ncbi.nlm.nih.gov/) | [NCBI E-utilities API](https://www.ncbi.nlm.nih.gov/books/NBK25499/))
@@ -37,7 +37,7 @@ See [requirements.txt]
 
     2. include 'and' and 'or' operators. also, save the csv file locally in the computer
     
-    3. download this locally into the computer not the folder in the repository
+    3. download this locally into the computer as well
     
     4. ok but if I use the same entry twice im not able to doawnload it becuase its the same file
     
