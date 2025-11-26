@@ -4,7 +4,9 @@ It is a simple game where the computer at random chooses one of the three option
 
 ## Files
 rps_main.py - main file (user interface)
+
 rps_logic.py - Business logic
+
 rps_test.py - Test program for the logic functions
 
 Additionally, a standalone version with both logic and main code combined is available for clarity and quick reference (see the 'rough' folder in 'day_05').
