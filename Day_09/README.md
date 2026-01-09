@@ -35,7 +35,6 @@ python report.py
 
 ## AI prompt used (codex chatgpt 5.2)
 
-User prompt:
 "Given the data in the day09/subjects.txt file in this repo
 write a program that will create a report of Missing submissions per assignment: list students with no “DayXX” issue by deadline. Create a python program as report.py
 using the subjects.txt file on the day_09 folder of this repo. Create a table
