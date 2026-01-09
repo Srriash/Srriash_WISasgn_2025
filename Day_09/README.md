@@ -5,7 +5,7 @@ status report for Days 01-09.
 
 ## What it does
 
-- Creates a table showing whether each student submitted each day.
+- Creates a table showing whether each student submitted each assignment.
 - Exports the table to an Excel file `submission_report.xlsx` (or a timestamped
   filename if the file is locked).
 
