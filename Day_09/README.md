@@ -1,4 +1,4 @@
-# Day 09 Report
+# Submissions Report (Yes/No)
 
 This folder contains a script that reads `subjects.txt` and generates a submission
 status report for Days 01-09.
